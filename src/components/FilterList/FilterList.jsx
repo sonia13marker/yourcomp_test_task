@@ -2,16 +2,29 @@ import "./FilterList.scss";
 import filter_icon from "../../images/filter_icon.svg";
 import CustomInputSearch from "../CustomInputSearch/CustomInputSearch";
 import CustomSelect from "../CustomSelect/CustomSelect";
-import values from "../../data/select_values.json";
+
 import CustomCheckbox from "../CustomCheckbox/CustomCheckbox";
 
 export default function FilterList() {
-  // console.log(values);
+   
+
+   let convenience = [
+        "Парковка",
+        "Wi-fi в офисе",
+        "Тренажерный зал"
+    ]
+
+   let stuff =[
+    "10",
+    "20",
+    "30",
+    "50+"
+]
   return (
     <section className="filterWrapper">
       <span className="filterWrapper__title">
         Фильтры
-        <img src="filter_icon" alt="" />
+        <img src={filter_icon} alt="" />
       </span>
 
       <div className="filterWrapper__container">
@@ -22,6 +35,9 @@ export default function FilterList() {
           value="Строительство"
           id="search_input_activity"
         />
+
+        <CustomSelect id="select_convenience" placeholder="Парковка"
+        values={convenience} label="Удобства"/>
 
         <span className="filterWrapper__container__check">
           <p className="filterWrapper__container__check__title">
@@ -34,6 +50,9 @@ export default function FilterList() {
           <CustomCheckbox id="gr4_checkbox" label="Работа из дома" />
           </span>
         </span>
+
+        <CustomSelect id="select_stuff" placeholder="Кол-во сотрудников"
+        values={stuff} label="Кол-во сотрудников"/>
 
         <span className="filterWrapper__container__check">
           <p className="filterWrapper__container__check__title">

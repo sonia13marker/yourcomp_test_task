@@ -1,20 +1,67 @@
 @import '../../style.scss';
 
+@mixin fontStyle {
+    font-size: 14px;
+    font-weight: 400;
+    color: $main-black-color;
+}
+
 .select {
  
     &__label {
         @include flexColumn;
         align-items: flex-start;
-        font-size: 14px;
-        font-weight: 400;
-        color: $main-black-color;
+        @include fontStyle;
+        position: relative;
     }
 
     &__wrapper {
-       
+       @include searchStyle;
+       @include flexRow;
+       justify-content: space-between;
+       @include fontStyle;
+
+       &__placeholder {
+            @include fontStyle;
+            color: $border-gray-color;
+       }
+
+       &__icon {
+            display: block;
+            width: 20px;
+            height: 20px;
+            background: url("../../images/down_arror_icon.svg") center center no-repeat;
+       }
+
+       &__itemsContainer{
+            @include searchStyle;
+            padding: 0;
+            margin: 0;
+            position: absolute;
+            top: 65px;
+            left: 0;
+            height: -moz-max-content;
+            height: max-content;
+       }
         
         &__item {
+            padding: 5px 15px;
+            @include fontStyle;
+            border-bottom: 1px solid $border-gray-color;
 
+            &:last-child {
+                border-bottom: none;
+            }
+
+            &:hover {
+                color: $main-blue-color-hover;
+                transition: $transition;
+                cursor: pointer;
+            }
+
+            &:active {
+                color: $main-blue-color;
+            }
         }
     }
 }
