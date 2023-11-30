@@ -1,1 +1,57 @@
 @import '../../style.scss';
+
+.searchPage {
+
+    margin: 65px 80px;
+    height: 100%;
+
+    &__wrapper {
+        display: grid;
+        grid-template-columns: -moz-max-content 1fr;
+        grid-template-columns: max-content 1fr;
+        grid-template-rows: auto;
+        gap: 50px;
+
+        &__resultWrapper {
+
+            width: 100%;
+
+            &__searchBar {
+                width: 100%;
+                @include flexRow;
+                justify-content: flex-start;
+                gap: 25px;
+
+                &__label {
+                    width: 100%;
+                    display: block;
+                    position: relative;
+                    height: -moz-max-content;
+                    height: max-content;
+
+                    &__image {
+                        position: absolute;
+                        top: 50%;
+                        left: 25px;
+                        transform: translateY(-25%);
+                        }
+                }
+
+                &__input { 
+
+                    @include searchStyle; 
+                    height: 55px;
+                    border-radius: 20px;
+                    width: 100%;
+                    min-width: 500px;
+                    padding-left: 60px;
+                }
+
+                &__text {
+                    white-space: nowrap;
+                    display: block;
+                }
+            }
+        }
+    }
+}
