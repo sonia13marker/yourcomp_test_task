@@ -23,7 +23,7 @@
         "parking": true,
         "gym": false,
         "recommended": false,
-        "center": true
+        "center": false
     },
     {
         "name": "Design Studio",
@@ -49,7 +49,7 @@
         "parking": true,
         "gym": false,
         "recommended": false,
-        "center": true
+        "center": false
     },
     {
         "name": "Company 3",
@@ -61,8 +61,8 @@
         "wifi": true,
         "parking": true,
         "gym": false,
-        "recommended": true,
-        "center": true
+        "recommended": false,
+        "center": false
     },
     {
         "name": "Construction Pro",
@@ -88,7 +88,7 @@
         "parking": true,
         "gym": true,
         "recommended": true,
-        "center": true
+        "center": false
     },
     {
         "name": "Design Studio",
@@ -100,7 +100,7 @@
         "wifi": true,
         "parking": true,
         "gym": false,
-        "recommended": true,
+        "recommended": false,
         "center": true
     },
     {
@@ -126,8 +126,8 @@
         "wifi": true,
         "parking": true,
         "gym": true,
-        "recommended": true,
-        "center": true
+        "recommended": false,
+        "center": false
     },
     {
         "name": "SuperRoof",
@@ -139,7 +139,7 @@
         "wifi": true,
         "parking": false,
         "gym": false,
-        "recommended": true,
+        "recommended": false,
         "center": true
     },
     {
@@ -165,8 +165,8 @@
         "wifi": true,
         "parking": true,
         "gym": true,
-        "recommended": true,
-        "center": true
+        "recommended": false,
+        "center": false
     },
     {
         "name": "Компания Сони Вегас",
@@ -179,7 +179,7 @@
         "parking": true,
         "gym": false,
         "recommended": false,
-        "center": true
+        "center": false
     }
 
 ]
