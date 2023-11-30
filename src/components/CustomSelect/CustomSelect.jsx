@@ -21,7 +21,7 @@ export default function CustomSelect({ customStyle, id, placeholder, values, lab
           {selectedOption ? (
             selectedOption
           ) : (
-            <span className="select__wrapper__placeholder">{placeholder}</span>
+            <span className="select__wrapper__placeholder" style={customStyle} >{placeholder}</span>
           )}
 
           <span className="select__wrapper__icon"></span>
