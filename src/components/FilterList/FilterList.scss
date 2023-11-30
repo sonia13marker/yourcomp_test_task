@@ -1,1 +1,28 @@
 @import '../../style.scss';
+
+.filterWrapper {
+
+    &__title {
+
+    }
+
+    &__container {
+
+
+        &__check {
+
+            &__title {
+                font-size: 14px;
+                font-weight: 500;
+                color: $main-black-color;
+                margin-bottom: 15px;
+            }
+
+            &__wrapper {
+                @include flexColumn;
+                align-items: flex-start;
+                gap: 10px;
+            }
+        }
+    }
+}
