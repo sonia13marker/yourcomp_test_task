@@ -9,9 +9,6 @@ export default function CardsList ({cards}) {
         <div className='imagesList'>
             {
                 cards.map((card) => 
-//                 {
-// console.log(card)
-//                 }
                 <CardComponent {...card} key={Math.random(customId)}/>
                 )
             }

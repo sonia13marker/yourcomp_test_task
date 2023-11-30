@@ -60,6 +60,12 @@
     &__feedbackWrapper {
         font-size: 12px;
         font-weight: 400;
+
+        & > span {
+            @include flexRow;
+            justify-content: flex-start;
+            gap: 5px;
+        }
     }
 
     &__desc {

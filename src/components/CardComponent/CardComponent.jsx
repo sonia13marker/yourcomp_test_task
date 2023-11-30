@@ -4,6 +4,7 @@ import place from "../../images/place_icon.svg";
 import parking_icon from "../../images/parking_icon.svg";
 import wifi_icon from "../../images/wifi_icon.svg";
 import gym_icon from "../../images/gym_icon.svg";
+import StarComponent from "../StarComponent/StarComponent";
 
 export default function CardComponent({
   name,
@@ -44,6 +45,7 @@ export default function CardComponent({
 
         <span className="card__infoBlock__feedbackWrapper">
           <span>
+            <StarComponent rating={stars}/>
             {stars}
             {` (${feedback} отзывов)`}
           </span>

@@ -1,0 +1,6 @@
+@import '../../style.scss';
+
+.imagesList {
+    @include flexColumn;
+    gap: 15px;
+}
