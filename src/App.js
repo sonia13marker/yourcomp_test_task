@@ -3,7 +3,6 @@ import './App.css';
 import SearchPage from './pages/SearchPage/SearchPage';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Header from './components/Header/Header';
-import BackToTopBtn from './components/BackToTopBtn/BackToTopBtn';
 
 function App() {
   return (
