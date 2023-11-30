@@ -1,7 +1,7 @@
 import "./CustomSelect.scss";
 import { useState } from "react";
 
-export default function CustomSelect({ id, placeholder, values, label }) {
+export default function CustomSelect({ customStyle, id, placeholder, values, label }) {
   const [isOpen, setIsOpen] = useState(false);
   const [selectedOption, setSelectedOption] = useState("");
 
@@ -15,7 +15,7 @@ export default function CustomSelect({ id, placeholder, values, label }) {
   };
   return (
     <>
-      <label className="select__label" htmlFor={id}>
+      <label className="select__label" htmlFor={id} style={customStyle}>
         {label}
         <div className="select__wrapper" onClick={toggleOptions}>
           {selectedOption ? (

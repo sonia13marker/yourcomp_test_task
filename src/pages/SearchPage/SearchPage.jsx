@@ -1,6 +1,7 @@
 import FilterList from '../../components/FilterList/FilterList';
 import './SearchPage.scss';
 import search_icon from '../../images/search_icon.svg';
+import CustomSelect from '../../components/CustomSelect/CustomSelect';
 
 export default function SearchPage () {
     return(
@@ -25,6 +26,12 @@ export default function SearchPage () {
                         </p>
                         
                     </span>
+
+                    <CustomSelect label="Сортировка:" placeholder="По популярности"
+                    id="select_sort"
+                    customStyle={{flexDirection: "row", justifyContent: "flex-start", alignItems: "center", gap: "15px"}}/>
+
+                    
 
                 </div>
             </section>
