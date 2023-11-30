@@ -1,16 +1,22 @@
 {
   "files": {
-    "main.css": "/yourcomp_test_task/static/css/main.38545b4b.css",
-    "main.js": "/yourcomp_test_task/static/js/main.3c23e02c.js",
+    "main.css": "/yourcomp_test_task/static/css/main.1afba4ce.css",
+    "main.js": "/yourcomp_test_task/static/js/main.b8b24456.js",
+    "static/media/unexpand_icon.svg": "/yourcomp_test_task/static/media/unexpand_icon.429419c2c36553088e012a3739829da1.svg",
+    "static/media/wifi_icon.svg": "/yourcomp_test_task/static/media/wifi_icon.440a7dddbfabfab2731e3d43bf48d033.svg",
+    "static/media/expand_icon.svg": "/yourcomp_test_task/static/media/expand_icon.9f4d3d359a9e81a7ee19c7cb635a26ff.svg",
     "static/media/filter_icon.svg": "/yourcomp_test_task/static/media/filter_icon.47188970f2377a8aa0ea4912b51679b2.svg",
+    "static/media/gym_icon.svg": "/yourcomp_test_task/static/media/gym_icon.955ea464ed3eb2d154dd3b2cbbcab123.svg",
+    "static/media/parking_icon.svg": "/yourcomp_test_task/static/media/parking_icon.503c39568c6c48b8d6ac80d33cb5da2d.svg",
     "static/media/search_icon.svg": "/yourcomp_test_task/static/media/search_icon.dce59b7d8a830baa4a4ff25ac0a0e188.svg",
     "static/media/down_arror_icon.svg": "/yourcomp_test_task/static/media/down_arror_icon.01fab94b81667a3a2b57.svg",
+    "static/media/place_icon.svg": "/yourcomp_test_task/static/media/place_icon.88af9f98c0c8e6d224bec808404f3bac.svg",
     "index.html": "/yourcomp_test_task/index.html",
-    "main.38545b4b.css.map": "/yourcomp_test_task/static/css/main.38545b4b.css.map",
-    "main.3c23e02c.js.map": "/yourcomp_test_task/static/js/main.3c23e02c.js.map"
+    "main.1afba4ce.css.map": "/yourcomp_test_task/static/css/main.1afba4ce.css.map",
+    "main.b8b24456.js.map": "/yourcomp_test_task/static/js/main.b8b24456.js.map"
   },
   "entrypoints": [
-    "static/css/main.38545b4b.css",
-    "static/js/main.3c23e02c.js"
+    "static/css/main.1afba4ce.css",
+    "static/js/main.b8b24456.js"
   ]
 }
