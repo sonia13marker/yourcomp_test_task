@@ -2,12 +2,31 @@
 
 .filterWrapper {
 
-    &__title {
+    max-width: 305px;
+    width: 100%;
+    height: -mox-max-content;
+    height: max-content;
+    padding: 25px;
+    background-color: $main-white-color;
+    border-radius: 20px;
+    @include flexColumn;
+    align-items: flex-start;
+    gap: 35px;
 
+    &__title {
+        @include flexRow;
+        justify-content: flex-start;
+        gap: 5px;
+        font-size: 20px;
+        font-weight: 500;
+        color: $main-black-color;
     }
 
     &__container {
-
+        
+        @include flexColumn;
+        align-items: flex-start;
+        gap: 30px;
 
         &__check {
 
