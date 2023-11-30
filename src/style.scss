@@ -29,6 +29,13 @@ $transition: all 0.3s;
     align-items: center;
 }
 
+@mixin flexColumn {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 
 //--------buttons style------------
 @mixin navBtn {
@@ -81,6 +88,24 @@ $transition: all 0.3s;
     cursor: pointer;
     transition: $transition;
 }
+
+//--------input styles-------
+@mixin searchStyle {
+    margin-top: 5px;
+    width: 230px;
+    padding: 7px 15px;
+    border-radius: 13px;
+    background-color: $main-white-color;
+    color: $main-black-color;
+    font-family: "Ubuntu", sans-serif;
+    border: 1px solid $border-gray-color;
+}
+
+@mixin searchStyleHover {
+    border: 1px solid $gray-more;
+    transition: $transition;
+}
+
 
 
 

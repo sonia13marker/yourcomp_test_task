@@ -1,0 +1,20 @@
+@import '../../style.scss';
+
+.search {
+  
+    &__label {
+        @include flexColumn;
+        align-items: flex-start;
+        font-size: 14px;
+        font-weight: 400;
+        color: $main-black-color;
+    }
+
+    &__input {
+        @include searchStyle;
+
+        &:hover {
+            @include searchStyleHover;
+        }
+    }
+}
