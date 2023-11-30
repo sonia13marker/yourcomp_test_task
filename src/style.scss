@@ -5,7 +5,29 @@
     box-sizing: border-box;
 }
 
+//--------переменные-------
+$main-white-color: #fff;
+$main-black-color: #030303;
+$main-blue-color: #1890FF;
+$main-blue-color-hover: #096DD9;
+$main-yellow-color: #FFF230;
+$badge-blue-color-: #72BFFF;
+$badge-green-color: #72FF91;
+$gray-description: #5E6B75;
+$gray-more: #5C6B77;
+$border-gray-color: #D9D9D9;
+$white-color: #F7F7F7;
+
+$box-shadow: 0px 0px 30px 0px rgba(70, 131, 187, 0.09);
+$transition: all 0.4s;
+
+
+
+
 body {
+    font-family: -apple-system, 'Roboto', BlinkMacSystemFont, 'Segoe UI', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
     background-color: #FAFAFA;
 
 }
