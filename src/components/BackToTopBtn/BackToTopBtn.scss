@@ -1,0 +1,19 @@
+@import '../../style.scss';
+
+.wrapperBtn {
+    width: 55px;
+    height: 55px;
+    position: fixed;
+    right: 80px;
+    bottom: 50px;
+    @include flexColumn;
+    background-color: $main-white-color;
+    border-radius: 50%;
+    box-shadow: $box-shadow;
+
+    &:hover {
+        background-color: $border-gray-color;
+        cursor: pointer;
+        transition: $transition;
+    }
+}

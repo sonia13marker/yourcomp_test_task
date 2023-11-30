@@ -5,12 +5,15 @@ import CustomSelect from "../../components/CustomSelect/CustomSelect";
 import CardsList from "../../components/CardsList/CardsList";
 import cards from "../../data/company.json";
 import MapComponent from "../../components/MapComponent/MapComponent";
+import BackToTopBtn from "../../components/BackToTopBtn/BackToTopBtn";
 
 export default function SearchPage() {
   return (
     <section className="searchPage">
       <section className="searchPage__wrapper">
         <FilterList />
+
+        <BackToTopBtn />
 
         <div className="searchPage__wrapper__resultWrapper">
           <span className="searchPage__wrapper__resultWrapper__searchBar">
