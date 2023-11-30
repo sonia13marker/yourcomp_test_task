@@ -5,6 +5,9 @@ import CustomSelect from "../../components/CustomSelect/CustomSelect";
 import expand from "../../images/expand_icon.svg";
 import no_expand from "../../images/unexpand_icon.svg";
 import { useState } from "react";
+import CardsList from "../../components/CardsList/CardsList";
+
+import cards from '../../data/company.json';
 
 export default function SearchPage() {
   const [isExpand, setIsExpand] = useState(false);
@@ -67,13 +70,18 @@ export default function SearchPage() {
             <iframe
               title="Карта компаний"
               src="https://yandex.ru/map-widget/v1/?um=constructor%3A6b49546ae2f96a24a482358df2e5f069cc8f908a6d9a63a964705c08d7edadb9&amp;source=constructor"
-              frameborder="0"
+              frameBorder="0"
               className={
                 isExpand
                   ? "searchPage__wrapper__resultWrapper__cardWrapper__map bigMap"
                   : "searchPage__wrapper__resultWrapper__cardWrapper__map"
               }
             ></iframe>
+          </div>
+
+          <div className="searchPage__wrapper__resultWrapper__cardsContainer">
+<CardsList cards={cards}/>
+
           </div>
         </div>
       </section>
