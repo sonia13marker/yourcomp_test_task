@@ -1,5 +1,6 @@
 import { Link, NavLink } from 'react-router-dom';
 import './Header.scss';
+import AccountIcon from '../../images/icons/AccountIcon';
 
 export default function Header () {
     return <header className='header'>
@@ -8,28 +9,28 @@ export default function Header () {
             </span>
 
             <nav className='header__nav'>
-                <ul>
-                    <li className='header__nav__li'>
-                        <NavLink to="/">
+                <ul className='header__nav__ul'>
+                    <li className='header__nav__ul__li'>
+                        <Link to="/" className='header__nav__ul__li__link active'>
                         Поиск
-                        </NavLink>
+                        </Link>
                     </li>
-                    <li className='header__nav__li'>
-                        <NavLink to="/#">
+                    <li className='header__nav__ul__li'>
+                        <Link to="#" className='header__nav__ul__li__link'>
                         Главная
-                        </NavLink>
+                        </Link>
                     </li>
-                    <li className='header__nav__li'>
-                        <NavLink to="/#">
+                    <li className='header__nav__ul__li'>
+                        <Link to="#" className='header__nav__ul__li__link'>
                         Избранное
-                        </NavLink>
+                        </Link>
                     </li>
                 </ul>
             </nav>
 
             <button className='header__loginBtn'>
                 Войти
-                <span className='header__loginBtn__icon' />
+                <AccountIcon />
             </button>
     </header>
 }

@@ -19,7 +19,68 @@ $border-gray-color: #D9D9D9;
 $white-color: #F7F7F7;
 
 $box-shadow: 0px 0px 30px 0px rgba(70, 131, 187, 0.09);
-$transition: all 0.4s;
+$transition: all 0.3s;
+
+//---------position------
+@mixin flexRow {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+
+//--------buttons style------------
+@mixin navBtn {
+    padding: 10px 25px;
+    font-size: 16px;
+    color: $main-blue-color;
+    font-weight: 400;
+}
+
+@mixin navBtnActive {
+    padding: 10px 25px;
+    font-size: 16px;
+    background-color: $main-blue-color;
+    border-radius: 20px;
+    color: $main-white-color;
+    font-weight: 400;
+}
+
+@mixin navBtnHover {
+    border-radius: 20px;
+    color: $main-blue-color-hover;
+    background-color: $main-white-color;
+    box-shadow: $box-shadow;
+}
+
+@mixin loginBtn {
+    @include flexRow;
+    gap: 8px;
+    padding: 10px 25px;
+    border: 1px solid $main-blue-color;
+    background-color: $main-white-color;
+    color: $main-blue-color;
+    font-size: 16px;
+    font-weight: 400;
+    border-radius: 20px;
+    transition: $transition;
+}
+
+@mixin loginBtnHover {
+    border-color: $main-blue-color-hover;
+    color: $main-blue-color-hover;
+    box-shadow: $box-shadow;
+    cursor: pointer;
+    transition: $transition;
+}
+
+@mixin loginBtnActive {
+    background-color: $main-blue-color;
+    color: $main-white-color;
+    cursor: pointer;
+    transition: $transition;
+}
 
 
 
