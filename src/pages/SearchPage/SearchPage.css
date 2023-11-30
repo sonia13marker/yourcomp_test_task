@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: -apple-system, "Roboto", BlinkMacSystemFont, "Segoe UI", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  background-color: #FAFAFA;
+}
+
+.searchPage {
+  margin: 65px 80px;
+  height: 100%;
+}
+.searchPage__wrapper {
+  display: grid;
+  grid-template-columns: -moz-max-content 1fr;
+  grid-template-columns: max-content 1fr;
+  grid-template-rows: auto;
+  gap: 50px;
+}
+.searchPage__wrapper__resultWrapper {
+  width: 100%;
+}
+.searchPage__wrapper__resultWrapper__searchBar {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 25px;
+  margin-bottom: 45px;
+}
+.searchPage__wrapper__resultWrapper__searchBar__label {
+  width: 100%;
+  display: block;
+  position: relative;
+  height: -moz-max-content;
+  height: max-content;
+}
+.searchPage__wrapper__resultWrapper__searchBar__label__image {
+  position: absolute;
+  top: 50%;
+  left: 25px;
+  transform: translateY(-25%);
+}
+.searchPage__wrapper__resultWrapper__searchBar__input {
+  margin-top: 5px;
+  width: 230px;
+  padding: 7px 15px;
+  border-radius: 13px;
+  background-color: #fff;
+  color: #030303;
+  font-family: "Ubuntu", sans-serif;
+  border: 1px solid #D9D9D9;
+  height: 55px;
+  border-radius: 20px;
+  width: 100%;
+  min-width: 500px;
+  padding-left: 60px;
+}
+.searchPage__wrapper__resultWrapper__searchBar__text {
+  white-space: nowrap;
+  display: block;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: normal;
+}
+.searchPage__wrapper__resultWrapper__searchBar__text > span {
+  font-weight: 700;
+}
+.searchPage__wrapper__resultWrapper__cardWrapper {
+  position: relative;
+  margin-top: 30px;
+  margin-bottom: 35px;
+}
+.searchPage__wrapper__resultWrapper__cardWrapper__map {
+  width: 100%;
+  height: 265px;
+  transition: all 0.3s;
+}
+
+.bigMap {
+  height: 465px;
+  transition: all 0.3s;
+}
+
+.expandBadge {
+  width: 140px;
+  padding: 10px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0px 0px 30px 0px rgba(70, 131, 187, 0.09);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+.expandBadge:hover {
+  cursor: pointer;
+  transition: all 0.3s;
+  background-color: #D9D9D9;
+}
+.expandBadge__p {
+  width: 100%;
+  font-size: 12px;
+  font-weight: 400;
+  color: #030303;
+}/*# sourceMappingURL=SearchPage.css.map */

@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: -apple-system, "Roboto", BlinkMacSystemFont, "Segoe UI", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  background-color: #FAFAFA;
+}
+
+.filterWrapper {
+  max-width: 305px;
+  width: 100%;
+  height: -mox-max-content;
+  height: -moz-max-content;
+  height: max-content;
+  padding: 25px;
+  background-color: #fff;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-items: flex-start;
+  gap: 35px;
+}
+.filterWrapper__title {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 5px;
+  font-size: 20px;
+  font-weight: 500;
+  color: #030303;
+}
+.filterWrapper__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-items: flex-start;
+  gap: 30px;
+}
+.filterWrapper__container__check__title {
+  font-size: 14px;
+  font-weight: 500;
+  color: #030303;
+  margin-bottom: 15px;
+}
+.filterWrapper__container__check__wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-items: flex-start;
+  gap: 10px;
+}/*# sourceMappingURL=FilterList.css.map */

@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: -apple-system, "Roboto", BlinkMacSystemFont, "Segoe UI", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  background-color: #FAFAFA;
+}
+
+.search__label {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-items: flex-start;
+  font-size: 14px;
+  font-weight: 400;
+  color: #030303;
+}
+.search__input {
+  margin-top: 5px;
+  width: 230px;
+  padding: 7px 15px;
+  border-radius: 13px;
+  background-color: #fff;
+  color: #030303;
+  font-family: "Ubuntu", sans-serif;
+  border: 1px solid #D9D9D9;
+}
+.search__input:hover {
+  border: 1px solid #5C6B77;
+  transition: all 0.3s;
+}/*# sourceMappingURL=CustomInputSearch.css.map */

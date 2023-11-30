@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: -apple-system, "Roboto", BlinkMacSystemFont, "Segoe UI", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  background-color: #FAFAFA;
+}
+
+.checkbox {
+  accent-color: #1890FF;
+}
+.checkbox__label {
+  font-size: 14px;
+  font-weight: 400;
+  color: #030303;
+}
+.checkbox__wrapper {
+  display: block;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 8px;
+}/*# sourceMappingURL=CustomCheckbox.css.map */

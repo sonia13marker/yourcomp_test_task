@@ -10,11 +10,11 @@ export default function StarComponent ({rating}) {
   return (
     <div className="star-rating">
       {[...Array(filledStars)].map((_, index) => (
-        <FillStar />
+        <FillStar key={index}/>
       ))}
       {halfStar && <img src={half} alt="" />}
       {[...Array(emptyStars)].map((_, index) => (
-        <EmptyStar />
+        <EmptyStar key={index}/>
       ))}
     </div>)
 }
