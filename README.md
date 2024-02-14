@@ -1,5 +1,9 @@
 # YourComp test task
 
+Выполнение тестового задания по критериям. Нужно было создать дизайн по имеющимся данным и сверстать его.
+
+## Стек
+React, SCSS, react-router-dom. Деплой на gh-pages
 <h3>Посмотреть в Figma: <a href="https://www.figma.com/file/cV4frpHoGFkzfkZc3aXx4P/%D1%82%D0%B5%D1%81%D1%82%D0%BE%D0%B2%D0%BE%D0%B5-%D0%B7%D0%B0%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5?type=design&node-id=0%3A1&mode=design&t=f6t7AdbmPIDrVcTl-1">https://www.figma.com/file</a></h3>
 
 <h3>Посмотреть на сайте:<a href="https://sonia13marker.github.io/yourcomp_test_task/">https://yourcomp_test_task/</a></h3>
